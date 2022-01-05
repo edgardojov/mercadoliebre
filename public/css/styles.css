@@ -135,10 +135,10 @@ main section article i{
 .fa-truck {
     color: #39b54a;
     transition: all;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 
-.fa-truck:hover {
+main section article:hover > .main-article > .fa-truck {
     transform: rotate(-90deg);
 }
 
@@ -154,7 +154,7 @@ h3 {
     margin-top: 20px;
 }
 
-.description:hover {
+main section article:hover  .description{
     color: #667;
 }
 
