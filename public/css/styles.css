@@ -175,79 +175,44 @@ h3 {
     display: flex;
 }
 
-.formulario-registro, .formulario-login {
-    margin: 40px 0px;
-}
 
-.form-registro div {
+.form-registro, .form-login{
     margin: 0 auto;
-    margin-top: 10px;
-    width: 300px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+    padding: 30px 0;
 }
 
-.form-registro label {
-    display: inline-block;
-    text-align: right;
+
+.form-registro div, .form-login div {
+    margin: 8px 0;
+}
+
+.form-registro label, .form-login label {
+    display: block;
     font-weight: bold;
+    font-size: 14px;
+    padding: 7px 0;
 }
 
-.form-registro input {
-  font: 1em sans-serif;
-  width: 280px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-  border-radius: 5px;
+.form-registro input, .form-login input {
+    border: none;
+    border-radius: 5px;
 }
 
-.form-registro button {
-    margin-top: 15px;
-    margin-left: 20%;
-    font-size: 25px;
+.input-registro {
+    width: 100%;
+    padding: 5px;
+}
+
+form button {
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    color: white;
     background-color: #0044AA;
-    border: 4px transparent;
-    border-radius: 10px;
-    color: white;
 }
 
-.form-login div {
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 300px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-
-.form-login label {
-    display: inline-block;
-    text-align: right;
-    font-weight: bold;
-}
-
-.form-login input {
-  font: 1em sans-serif;
-  width: 280px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-  border-radius: 5px;
-}
-
-.form-login button {
-    margin-top: 15px;
-    margin-left: 40%;
-    font-size: 25px;
-    background-color: #0a59cf;
-    border: 4px transparent;
-    border-radius: 10px;
-    color: white;
-}
-
-.enviar-login:hover {
-    background-color: #0022AA;
-}
 
 .copy-footer {
     text-align: left;
@@ -329,69 +294,7 @@ footer i {
         display: block;
     }
 
-    .form-registro div {
-        margin: 0 auto;
-        margin-top: 10px;
-        width: 540px;
-        padding: 1em;
-        border: 1px solid #CCC;
-        border-radius: 1em;
-    }
     
-    .form-registro label {
-        display: inline-block;
-        text-align: right;
-        font-weight: bold;
-    }
-    
-    .form-registro input {
-      font: 1.5em sans-serif;
-      width: 450px;
-      box-sizing: border-box;
-      border: 1px solid #999;
-    }
-    
-    .form-registro button {
-        margin-top: 15px;
-        margin-left: 25%;
-        font-size: 35px;
-        background-color: #0044AA;
-        border: 4px transparent;
-        border-radius: 10px;
-        color: white;
-    }
-
-    .form-login div {
-        margin: 0 auto;
-        margin-top: 10px;
-        width: 540px;
-        padding: 1em;
-        border: 1px solid #CCC;
-        border-radius: 1em;
-    }
-    
-    .form-login label {
-        display: inline-block;
-        text-align: right;
-        font-weight: bold;
-    }
-    
-    .form-login input {
-      font: 1.5em sans-serif;
-      width: 450px;
-      box-sizing: border-box;
-      border: 1px solid #999;
-    }
-    
-    .form-login button {
-        margin-top: 15px;
-        margin-left: 45%;
-        font-size: 35px;
-        background-color: #0044AA;
-        border: 4px transparent;
-        border-radius: 10px;
-        color: white;
-    }
 }
 
 
@@ -456,26 +359,26 @@ footer i {
         font-size: 19px;
     } 
 
-    .form-registro button {
-        margin-top: 15px;
-        margin-left: 28%;
-        font-size: 35px;
-        background-color: #0044AA;
-        border: 4px transparent;
-        border-radius: 10px;
-        color: white;
+    .input-registro {
+        max-width: 468px;
+        padding: 5px;
+    }
+    
+    .form-registro, .form-login {
+        margin-left: 25%;
     }
 
-    .form-login button {
-        margin-top: 15px;
-        margin-left: 45%;
-        font-size: 35px;
-        background-color: #0044AA;
-        border: 4px transparent;
-        border-radius: 10px;
+    form button {
+        border: none;
+        border-radius: 3px;
+        max-width: 468px;
+        margin: 5px 0;
+        padding: 8px;
         color: white;
+        background-color: #0044AA;
     }
 
+    
     footer {
         text-align: center;
         margin-top: 60px;

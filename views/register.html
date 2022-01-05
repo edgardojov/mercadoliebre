@@ -42,28 +42,27 @@
             </nav>
         </header>
         <main>
-            <section class="formulario-registro">
+            <section>
                 <form action="/" method="GET" class="form-registro">
                     <div>
                         <label for="nombre">Nombre y apellido:</label>
-                        <input type="text" name="nombre" id="nombre" required>
-                        <span class="feedback"></span>
+                        <input type="text" name="nombre" id="nombre" required class="input-registro">
                     </div>
                     
                     <div>
                         <label for="usuario">Nombre de usuario:</label>
-                        <input type="text" name="usuario" id="usuario" required>
+                        <input type="text" name="usuario" id="usuario" required class="input-registro">
                     </div>
 
                     <div>
                         <label for="fechaNacimiento">Fecha de nacimiento:</label>
-                        <input type="date" name="fechaNacimiento" id="fechaNacimiento" required>
+                        <input type="date" name="fechaNacimiento" id="fechaNacimiento" required class="input-registro">
                     </div>
                     
 
                    <div>
                         <label for="domicilio">Domicilio:</label>
-                        <input type="text" name="domicilio" id="nombre" required>
+                        <input type="text" name="domicilio" id="nombre" required class="input-registro">
                    </div>
 
                    <div>
@@ -73,7 +72,7 @@
                    </div>
                     
 
-                    <div>
+                    <div class="multiple">
                         <label for="categorias">Categorias de interés:</label>
                         <input type="checkbox" name="categorias" value="Electro">Electro
                         <input type="checkbox" name="categorias" value="Moda">Moda
@@ -84,17 +83,17 @@
 
                     <div>
                         <label for="imagenPerfil">Foto de usuario:</label>
-                        <input type="file" name="imagenPerfil" id="imagenPerfil" accept=".jpg, .png">
+                        <input type="file" name="imagenPerfil" id="imagenPerfil" accept=".jpg, .png" class="input-registro">
                     </div>
 
                     <div>
                         <label for="contrasena">Contraseña:</label>
-                        <input type="password" name="contrasena" id="contrasena" required>
+                        <input type="password" name="contrasena" id="contrasena" required class="input-registro">
                     </div>
 
                     <div>
                         <label for="confirContrasena">Confirmar contraseña:</label>
-                        <input type="password" name="confirContrasena" id="confirContrasena" required>
+                        <input type="password" name="confirContrasena" id="confirContrasena" required class="input-registro">
                     </div>
 
                     <button type="submit">Enviar</button>
